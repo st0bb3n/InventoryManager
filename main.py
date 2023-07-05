@@ -286,7 +286,7 @@ entry6 = tk.Entry(window)
 entry6.grid(row=2, column=3)
 
 text_output = tk.Text(window)
-text_output.grid(row=3, column=0, columnspan=1)
+text_output.grid(row=3, column=0, columnspan=3)
 
 # Redirect console output to the Text widget
 sys.stdout = ConsoleOutput(text_output)
